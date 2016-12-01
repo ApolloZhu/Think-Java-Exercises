@@ -1,3 +1,371 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1512 693" width="126pc" height="693pt" xmlns:dc="http://purl.org/dc/elements/1.1/"><metadata> Produced by OmniGraffle 6.6 <dc:date>2016-08-21 00:29:53 +0000</dc:date></metadata><defs><filter id="Shadow" filterUnits="userSpaceOnUse"><feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="1.308"/><feOffset in="blur" result="offset" dx="0" dy="2"/><feFlood flood-color="black" flood-opacity=".5" result="flood"/><feComposite in="flood" in2="offset" operator="in"/></filter><font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.683594" underline-thickness="49.316406" slope="0" x-height="522.94922" cap-height="717.28516" ascent="770.01953" descent="-229.98047" font-weight="500"><font-face-src><font-face-name name="Helvetica"/></font-face-src></font-face><font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.683594" underline-thickness="49.316406" slope="0" x-height="532.22656" cap-height="719.72656" ascent="770.01953" descent="-229.98047" font-weight="bold"><font-face-src><font-face-name name="Helvetica-Bold"/></font-face-src></font-face><marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="UMLInheritance_Marker" viewBox="-1 -8 14 16" markerWidth="14" markerHeight="16" color="black"><g><path d="M 12 0 L 0 -7 L 0 7 Z" fill="none" stroke="currentColor" stroke-width="1"/></g></marker><marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="StickArrow_Marker" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black"><g><path d="M 8 0 L 0 0 M 0 -3 L 8 0 L 0 3" fill="none" stroke="currentColor" stroke-width="1"/></g></marker></defs><g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1"><title>Canvas 1</title><g><title>Layer 1</title><g><xl:use xl:href="#id21_Graphic" filter="url(#Shadow)"/><xl:use xl:href="#id142_Graphic" filter="url(#Shadow)"/><xl:use xl:href="#id180_Graphic" filter="url(#Shadow)"/><xl:use xl:href="#id182_Graphic" filter="url(#Shadow)"/><xl:use xl:href="#id184_Graphic" filter="url(#Shadow)"/><xl:use xl:href="#id186_Graphic" filter="url(#Shadow)"/><xl:use xl:href="#id188_Graphic" filter="url(#Shadow)"/></g><rect x="36" y="62" width="189" height="14" fill="white"/><rect x="36" y="62" width="189" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(41 62)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="76.495117" y="11" textLength="26.009766">Card</tspan></text><rect x="36" y="76" width="189" height="56" fill="white"/><rect x="36" y="76" width="189" height="56" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(41 76)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="64.353516">+ RANKS: fi</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="64.353516" y="11" textLength="57.36328">nal String[]</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="25" textLength="58.347656">+ SUITS: fi</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="58.347656" y="25" textLength="57.36328">nal String[]</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="39" textLength="47.33789">- rank: fi</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="47.33789" y="39" textLength="35.332031">nal int</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="53" textLength="43.32422">- suit: fi</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="43.32422" y="53" textLength="35.332031">nal int</tspan></text><rect x="36" y="132" width="189" height="98" fill="white"/><rect x="36" y="132" width="189" height="98" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(41 132)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="131.71289">+ Card(rank: int, suit: int)</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="25" textLength="67.69336">+ compareT</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="66.808594" y="25" textLength="93.978516">o(that: Card): int</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="39" textLength="135.00586">+ equals(that: Card): int</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="53" textLength="87.66797">+ getRank(): int</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="67" textLength="80.98828">+ getSuit(): int</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="81" textLength="72.345703">+ score(): int</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="95" textLength="106.31836">+ toString(): String</tspan></text><rect x="18" y="390" width="225" height="14" fill="white"/><rect x="18" y="390" width="225" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(23 390)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="76.152344" y="11" textLength="62.695312">Eights Card</tspan></text><rect x="18" y="404" width="225" height="12" fill="white"/><rect x="18" y="404" width="225" height="12" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><rect x="18" y="416" width="225" height="42" fill="white"/><rect x="18" y="416" width="225" height="42" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(23 416)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="165.06445">+ EightsCard(rank: int, suit: int)</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="25" textLength="207.01758">+ matches(that: EightCard): boolean</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="39" textLength="72.345703">+ score(): int</tspan></text><line x1="130.594836" y1="390" x2="131.00347" y2="243.49995" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><rect x="324" y="35" width="243" height="14" fill="white"/><rect x="324" y="35" width="243" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(329 35)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="75.481445" y="11" textLength="82.03711">Card Collection</tspan></text><rect x="324" y="49" width="243" height="28" fill="white"/><rect x="324" y="49" width="243" height="28" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(329 49)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="11" textLength="76.66992">- label: String</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="25" textLength="46.68164">- cards: </tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="46.242188" y="25" textLength="94.04297">ArrayList&lt;Card&gt;</tspan></text><rect x="324" y="77" width="243" height="210" fill="white"/><rect x="324" y="77" width="243" height="210" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(329 77)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="160.40625">+ CardCollection(label: String)</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="25" textLength="109.66992">+ getLabel(): String</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="39" textLength="136.33008">+ getCardAt(i: int): Card</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="53" textLength="73.68164">+ last(): Card</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="67" textLength="121.01953">+ append(card: Card)</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="81" textLength="133.68164">+ removeAt(i: int): Card</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="95" textLength="120.36914">+ removeLast(): Card</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="109" textLength="63.00586">+ size(): int</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="123" textLength="118.347656">+ isEmpty(): boolean</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="137" textLength="193.00195">+ deal(that: CardCollection, n: int)</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="151" textLength="172.34766">+ dealAll(that: CardCollection)</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="165" textLength="110.33203">+ swapAt(int i, int j)</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="179" textLength="43.001953">+ shuffl</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="43.001953" y="179" textLength="14.666016">e()</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="193" textLength="106.31836">+ toString(): String</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="207" textLength="59.683594">+ display()</tspan></text><g id="id21_Graphic"><rect x="171" y="315" width="117" height="18" fill="white"/><rect x="171" y="315" width="117" height="18" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(176 317)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="6.4785156" y="11" textLength="94.04297">ArrayList&lt;Card&gt;</tspan></text></g><line x1="324" y1="155.21429" x2="234.8888" y2="150.970895" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/><line x1="324" y1="286.78832" x2="295.25358" y2="316.54934" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="170.88906" y1="323.51246" x2="151.80672" y2="239.65323" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><rect x="324" y="341" width="243" height="14" fill="white"/><rect x="324" y="341" width="243" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(329 341)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="57.138672" y="11" textLength="118.722656">Eights Card Collection</tspan></text><rect x="324" y="355" width="243" height="14" fill="white"/><rect x="324" y="355" width="243" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(329 355)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="11" textLength="77.33789">- eightCards: </tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="76.898438" y="11" textLength="130.71094">ArrayList&lt;EightsCard&gt;</tspan></text><rect x="324" y="369" width="243" height="168" fill="white"/><rect x="324" y="369" width="243" height="168" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(329 369)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="197.0918">+ EightsCardCollection(label: String) </tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="25" textLength="169.00195">+ getCardAt(int i): EightsCard</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="39" textLength="110.34961">+ last(): EightsCard</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="53" textLength="157.6875">+ append(card: EightsCard)</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="67" textLength="166.35352">+ removeAt(int i): EightsCard</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="81" textLength="157.03711">+ removeLast(): EightsCard</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="95" textLength="63.00586">+ size(): int</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="109" textLength="229.66992">+ deal(that: EightsCardCollection, n: int)</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="123" textLength="209.01562">+ dealAll(that: EightsCardCollection)</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="137" textLength="110.33203">+ swapAt(int i, int j)</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="151" textLength="106.31836">+ toString(): String</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="165" textLength="59.683594">+ display()</tspan></text><g id="id142_Graphic"><rect x="162" y="350" width="144" height="18" fill="white"/><rect x="162" y="350" width="144" height="18" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(167 352)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="1.64453125" y="11" textLength="130.71094">ArrayList&lt;EightsCard&gt;</tspan></text></g><line x1="324" y1="433.2065" x2="252.88876" y2="429.8157" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/><line x1="324" y1="369.32258" x2="314.58802" y2="363.92503" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="162" y1="359" x2="151.29435" y2="381.09103" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="445.50002" y1="341" x2="445.50002" y2="300.5" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><rect x="324" y="567" width="243" height="14" fill="white"/><rect x="324" y="567" width="243" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(329 567)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="84.487305" y="11" textLength="64.02539">Eights Deck</tspan></text><rect x="324" y="581" width="243" height="12" fill="white"/><rect x="324" y="581" width="243" height="12" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><rect x="324" y="593" width="243" height="28" fill="white"/><rect x="324" y="593" width="243" height="28" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(329 593)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="142.39453">+ EightsDeck(label: String)</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="25" textLength="62.666016">- initialize()</tspan></text><line x1="445.5" y1="567" x2="445.5" y2="550.5" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><rect x="657" y="99" width="243" height="14" fill="white"/><rect x="657" y="99" width="243" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(662 99)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="99.493164" y="11" textLength="34.013672">Player</tspan></text><rect x="657" y="113" width="243" height="28" fill="white"/><rect x="657" y="113" width="243" height="28" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(662 113)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="11" textLength="80.671875">- name: String</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="25" textLength="128.666016">- hand: CardCollection</tspan></text><rect x="657" y="141" width="243" height="84" fill="white"/><rect x="657" y="141" width="243" height="84" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(662 141)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="120.38086">+ Player(name: String)</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="25" textLength="111.01172">+ getName(): String</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="39" textLength="159.00586">+ getHand(): CardCollection</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="53" textLength="72.345703">+ score(): int</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="67" textLength="59.683594">+ display()</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="81" textLength="93.035156">+ displayScore()</tspan></text><line x1="657" y1="162.04266" x2="576.9" y2="162.07078" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><rect x="621" y="292" width="315" height="14" fill="white"/><rect x="621" y="292" width="315" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(626 292)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="117.15039" y="11" textLength="70.69922">Eights Player</tspan></text><rect x="621" y="306" width="315" height="14" fill="white"/><rect x="621" y="306" width="315" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(626 306)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="11" textLength="202.00781">- eightsHand: EightsCardCollection</tspan></text><rect x="621" y="320" width="315" height="112" fill="white"/><rect x="621" y="320" width="315" height="112" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(626 320)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="153.73242">+ EightsPlayer(name: String)</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="25" textLength="195.67383">+ getHand(): EightsCardCollection</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="39" textLength="72.345703">+ score(): int</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="53" textLength="59.683594">+ display()</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="67" textLength="93.035156">+ displayScore()</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="81" textLength="296.37305">+ play(eights: Eights, prev: EightsCard): EightsCard</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="95" textLength="279.05273">+ searchForMatch(prev: EightsCard): EightsCard</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="109" textLength="283.03125">+ drawForMatch(eights: Eights, prev: EightsCard)</tspan></text><line x1="778.5" y1="292" x2="778.5" y2="238.5" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><rect x="621" y="512" width="315" height="14" fill="white"/><rect x="621" y="512" width="315" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(626 512)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="115.146484" y="11" textLength="74.70703">Eights Genius</tspan></text><rect x="621" y="526" width="315" height="12" fill="white"/><rect x="621" y="526" width="315" height="12" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><rect x="621" y="538" width="315" height="56" fill="white"/><rect x="621" y="538" width="315" height="56" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(626 538)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="157.74023">+ EightsGenius(name: String)</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="25" textLength="273.45703">- eval(card: EightsCard, total: int, vary: boolean): int</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="39" textLength="207.42773">- eval(rank: int, total: int, vary: boolean)</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="53" textLength="279.05273">+ searchForMatch(prev: EightsCard): EightsCard</tspan></text><line x1="778.5" y1="512" x2="778.5" y2="445.5" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><rect x="1152" y="144" width="288" height="14" fill="white"/><rect x="1152" y="144" width="288" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(1157 144)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="122.32422" y="11" textLength="33.351562">Eights</tspan></text><rect x="1152" y="158" width="288" height="112" fill="white"/><rect x="1152" y="158" width="288" height="112" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(1157 158)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="132.11133">+ debug: boolean = false</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="25" textLength="68.033203">- in: Scanner</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="39" textLength="100.04297">- random: Random</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="53" textLength="56.689453">- players: </tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="56.25" y="53" textLength="139.40039">ArrayList&lt;EightsPlayer&gt;</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="67" textLength="186.02344">- drawPile: EightsCardCollection</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="81" textLength="200.70117">- discardPile: EightsCardCollection</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="95" textLength="70.664062">- current: int</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="109" textLength="67.992188">- winner: int</tspan></text><rect x="1152" y="270" width="288" height="196" fill="white"/><rect x="1152" y="270" width="288" height="196" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(1157 270)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="79.03125">+ test(players: </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="78.375" y="11" textLength="188.08594">ArrayList&lt;EightsPlayer&gt;, count: int)</tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="25" textLength="93.041016">+ Eights(players: </tspan><tspan font-family="Helvetica" font-size="12" font-weight="500" x="92.384766" y="25" textLength="132.7207">ArrayList&lt;EightsPlayer&gt;)</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="39" textLength="72.328125">+ play(): int[]</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="53" textLength="111.67383">+ isDone(): boolean</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="67" textLength="89.027344">+ displayState()</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="81" textLength="87.685547">+ waitForUser()</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="95" textLength="41.689453">+ takeT</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="40.804688" y="95" textLength="142.70508">urn(player: EightsPlayer)</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="109" textLength="101.660156">+ getCurrent(): int</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="123" textLength="39.667969">+ getW</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="39.5625" y="123" textLength="59.320312">inner(): int</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="137" textLength="98.378906">+ increaseIndex()</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="151" textLength="159.06445">+ nextPlayer(): EightsPlayer</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="165" textLength="121.68164">+ previousIndex(): int</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="179" textLength="117.67969">+ draw(): EightsCard</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="193" textLength="54.345703">+ reshuffl</tspan><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="54.345703" y="193" textLength="14.666016">e()</tspan></text><line x1="621" y1="399.76968" x2="576.62705" y2="410.41065" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><g id="id180_Graphic"><rect x="621" y="459" width="117" height="18" fill="white"/><rect x="621" y="459" width="117" height="18" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(626 461)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="bold" x=".14453125" y="11" textLength="106.71094">ArrayList&lt;Integer&gt;</tspan></text></g><line x1="725.0921" y1="512" x2="687.35287" y2="483.02847" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><g id="id182_Graphic"><rect x="171" y="279" width="117" height="18" fill="white"/><rect x="171" y="279" width="117" height="18" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(176 281)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="29.5" y="11" textLength="48">Random</tspan></text></g><line x1="324" y1="258.97143" x2="295.70667" y2="281.78573" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/><g id="id184_Graphic"><rect x="981" y="243" width="117" height="18" fill="white"/><rect x="981" y="243" width="117" height="18" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(986 245)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="29.822266" y="11" textLength="47.35547">Scanner</tspan></text></g><line x1="1152" y1="266.45455" x2="1107.5633" y2="254.55988" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><g id="id186_Graphic"><rect x="981" y="279" width="117" height="18" fill="white"/><rect x="981" y="279" width="117" height="18" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(986 281)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="29.5" y="11" textLength="48">Random</tspan></text></g><line x1="1152" y1="292.63636" x2="1107.8637" y2="288.84688" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><g id="id188_Graphic"><rect x="963" y="378" width="153" height="18" fill="white"/><rect x="963" y="378" width="153" height="18" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(968 380)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="bold" x="1.7998047" y="11" textLength="139.40039">ArrayList&lt;EightsPlayer&gt;</tspan></text></g><line x1="1152" y1="370.6" x2="1125.0092" y2="382.8958" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="963" y1="387" x2="945.81035" y2="384.67078" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><line x1="1152" y1="320.90344" x2="945.84017" y2="343.67185" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/><rect x="1008" y="545" width="288" height="14" fill="white"/><rect x="1008" y="545" width="288" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(1013 545)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="102.98535" y="11" textLength="72.029297">Game Center</tspan></text><rect x="1008" y="559" width="288" height="12" fill="white"/><rect x="1008" y="559" width="288" height="12" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><rect x="1008" y="571" width="288" height="14" fill="white"/><rect x="1008" y="571" width="288" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/><text transform="translate(1013 571)" fill="black"><tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="112.371094">+ main(args: String[])</tspan></text><line x1="1163.1201" y1="545" x2="1202.23365" y2="474.6525" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/><line x1="1138.6864" y1="545" x2="1044.9859" y2="404.24105" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1444 627" width="1444pt" height="627pt" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata> Produced by OmniGraffle 7.2.1 
+    <dc:date>2016-12-01 04:46:56 +0000</dc:date>
+  </metadata>
+  <defs>
+    <filter id="Shadow" filterUnits="userSpaceOnUse">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="1.308"/>
+      <feOffset in="blur" result="offset" dx="0" dy="2"/>
+      <feFlood flood-color="black" flood-opacity=".5" result="flood"/>
+      <feComposite in="flood" in2="offset" operator="in"/>
+    </filter>
+    <font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica" font-size="12" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="532.22656" cap-height="719.7266" ascent="770.0195" descent="-229.98047" font-weight="bold">
+      <font-face-src>
+        <font-face-name name="Helvetica-Bold"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="UMLInheritance_Marker" viewBox="-1 -8 14 16" markerWidth="14" markerHeight="16" color="black">
+      <g>
+        <path d="M 12 0 L 0 -7 L 0 7 Z" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="StickArrow_Marker" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 0 M 0 -3 L 8 0 L 0 3" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="Diamond_Marker" viewBox="-9 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M -8 0 L -4 3 L 0 0 L -4 -3 Z" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledDiamond_Marker" viewBox="-9 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M -8 0 L -4 3 L 0 0 L -4 -3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <g stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <rect fill="white" width="1607" height="940"/>
+    <g>
+      <title>Layer 1</title>
+      <g>
+        <xl:use xl:href="#id21_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id142_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id180_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id184_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id186_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id188_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id618_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id197_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id620_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id621_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id623_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id624_Graphic" filter="url(#Shadow)"/>
+        <xl:use xl:href="#id626_Graphic" filter="url(#Shadow)"/>
+      </g>
+      <rect x="36" y="62" width="189" height="14" fill="white"/>
+      <rect x="36" y="62" width="189" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(41 62)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="76.49512" y="11" textLength="26.009766">Card</tspan>
+      </text>
+      <rect x="36" y="76" width="189" height="56" fill="white"/>
+      <rect x="36" y="76" width="189" height="56" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(41 76)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="64.353516">+ RANKS: fi</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="64.353516" y="11" textLength="57.36328">nal String[]</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="25" textLength="58.347656">+ SUITS: fi</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="58.347656" y="25" textLength="57.36328">nal String[]</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="39" textLength="47.33789">- rank: fi</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="47.33789" y="39" textLength="35.33203">nal int</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="53" textLength="43.32422">- suit: fi</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="43.32422" y="53" textLength="35.33203">nal int</tspan>
+      </text>
+      <rect x="36" y="132" width="189" height="98" fill="white"/>
+      <rect x="36" y="132" width="189" height="98" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(41 132)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="131.71289">+ Card(rank: int, suit: int)</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="25" textLength="67.69336">+ compareT</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="66.80859" y="25" textLength="93.97852">o(that: Card): int</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="39" textLength="135.00586">+ equals(that: Card): int</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="53" textLength="87.66797">+ getRank(): int</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="67" textLength="80.98828">+ getSuit(): int</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="81" textLength="72.3457">+ score(): int</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="95" textLength="106.31836">+ toString(): String</tspan>
+      </text>
+      <rect x="18" y="390" width="225" height="14" fill="white"/>
+      <rect x="18" y="390" width="225" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(23 390)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="76.15234" y="11" textLength="62.69531">Eights Card</tspan>
+      </text>
+      <rect x="18" y="404" width="225" height="12" fill="white"/>
+      <rect x="18" y="404" width="225" height="12" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="18" y="416" width="225" height="42" fill="white"/>
+      <rect x="18" y="416" width="225" height="42" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(23 416)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="165.06445">+ EightsCard(rank: int, suit: int)</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="25" textLength="207.01758">+ matches(that: EightCard): boolean</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="39" textLength="72.3457">+ score(): int</tspan>
+      </text>
+      <line x1="130.50572" y1="390" x2="130.53038" y2="243.5" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="324" y="35" width="243" height="14" fill="white"/>
+      <rect x="324" y="35" width="243" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(329 35)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="75.481445" y="11" textLength="82.03711">Card Collection</tspan>
+      </text>
+      <rect x="324" y="49" width="243" height="28" fill="white"/>
+      <rect x="324" y="49" width="243" height="28" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(329 49)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="11" textLength="76.66992">- label: String</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="25" textLength="46.68164">- cards: </tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="46.24219" y="25" textLength="94.04297">ArrayList&lt;Card&gt;</tspan>
+      </text>
+      <rect x="324" y="77" width="243" height="210" fill="white"/>
+      <rect x="324" y="77" width="243" height="210" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(329 77)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="160.40625">+ CardCollection(label: String)</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="25" textLength="109.66992">+ getLabel(): String</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="39" textLength="136.33008">+ getCardAt(i: int): Card</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="53" textLength="73.68164">+ last(): Card</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="67" textLength="121.01953">+ append(card: Card)</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="81" textLength="133.68164">+ removeAt(i: int): Card</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="95" textLength="120.36914">+ removeLast(): Card</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="109" textLength="63.00586">+ size(): int</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="123" textLength="118.34766">+ isEmpty(): boolean</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="137" textLength="193.00195">+ deal(that: CardCollection, n: int)</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="151" textLength="172.34766">+ dealAll(that: CardCollection)</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="165" textLength="110.33203">+ swapAt(int i, int j)</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="179" textLength="43.001953">+ shuffl</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="43.001953" y="179" textLength="14.666016">e()</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="193" textLength="106.31836">+ toString(): String</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="207" textLength="59.683594">+ display()</tspan>
+      </text>
+      <g id="id21_Graphic">
+        <rect x="171" y="315" width="117" height="18" fill="white"/>
+        <rect x="171" y="315" width="117" height="18" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(176 317)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="6.478516" y="11" textLength="94.04297">ArrayList&lt;Card&gt;</tspan>
+        </text>
+      </g>
+      <rect x="324" y="341" width="243" height="14" fill="white"/>
+      <rect x="324" y="341" width="243" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(329 341)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="57.13867" y="11" textLength="118.72266">Eights Card Collection</tspan>
+      </text>
+      <rect x="324" y="355" width="243" height="14" fill="white"/>
+      <rect x="324" y="355" width="243" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(329 355)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="11" textLength="77.33789">- eightCards: </tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="76.89844" y="11" textLength="130.71094">ArrayList&lt;EightsCard&gt;</tspan>
+      </text>
+      <rect x="324" y="369" width="243" height="168" fill="white"/>
+      <rect x="324" y="369" width="243" height="168" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(329 369)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="197.0918">+ EightsCardCollection(label: String) </tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="25" textLength="169.00195">+ getCardAt(int i): EightsCard</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="39" textLength="110.34961">+ last(): EightsCard</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="53" textLength="157.6875">+ append(card: EightsCard)</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="67" textLength="166.35352">+ removeAt(int i): EightsCard</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="81" textLength="157.03711">+ removeLast(): EightsCard</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="95" textLength="63.00586">+ size(): int</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="109" textLength="229.66992">+ deal(that: EightsCardCollection, n: int)</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="123" textLength="209.01562">+ dealAll(that: EightsCardCollection)</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="137" textLength="110.33203">+ swapAt(int i, int j)</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="151" textLength="106.31836">+ toString(): String</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="165" textLength="59.683594">+ display()</tspan>
+      </text>
+      <g id="id142_Graphic">
+        <rect x="162" y="350" width="144" height="18" fill="white"/>
+        <rect x="162" y="350" width="144" height="18" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(167 352)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="1.6445312" y="11" textLength="130.71094">ArrayList&lt;EightsCard&gt;</tspan>
+        </text>
+      </g>
+      <line x1="324" y1="433.21334" x2="252.8888" y2="429.82654" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="445.5" y1="341" x2="445.5" y2="300.5" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="324" y="567" width="243" height="14" fill="white"/>
+      <rect x="324" y="567" width="243" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(329 567)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="84.4873" y="11" textLength="64.02539">Eights Deck</tspan>
+      </text>
+      <rect x="324" y="581" width="243" height="12" fill="white"/>
+      <rect x="324" y="581" width="243" height="12" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="324" y="593" width="243" height="28" fill="white"/>
+      <rect x="324" y="593" width="243" height="28" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(329 593)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="142.39453">+ EightsDeck(label: String)</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="25" textLength="62.666016">- initialize()</tspan>
+      </text>
+      <line x1="445.5" y1="567" x2="445.5" y2="550.5" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="657" y="99" width="243" height="14" fill="white"/>
+      <rect x="657" y="99" width="243" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(662 99)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="99.49316" y="11" textLength="34.01367">Player</tspan>
+      </text>
+      <rect x="657" y="113" width="243" height="28" fill="white"/>
+      <rect x="657" y="113" width="243" height="28" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(662 113)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="11" textLength="80.671875">- name: String</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="25" textLength="128.66602">- hand: CardCollection</tspan>
+      </text>
+      <rect x="657" y="141" width="243" height="84" fill="white"/>
+      <rect x="657" y="141" width="243" height="84" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(662 141)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="120.38086">+ Player(name: String)</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="25" textLength="111.01172">+ getName(): String</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="39" textLength="159.00586">+ getHand(): CardCollection</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="53" textLength="72.3457">+ score(): int</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="67" textLength="59.683594">+ display()</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="81" textLength="93.03516">+ displayScore()</tspan>
+      </text>
+      <rect x="621" y="292" width="315" height="14" fill="white"/>
+      <rect x="621" y="292" width="315" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(626 292)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="117.15039" y="11" textLength="70.69922">Eights Player</tspan>
+      </text>
+      <rect x="621" y="306" width="315" height="14" fill="white"/>
+      <rect x="621" y="306" width="315" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(626 306)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="11" textLength="202.00781">- eightsHand: EightsCardCollection</tspan>
+      </text>
+      <rect x="621" y="320" width="315" height="112" fill="white"/>
+      <rect x="621" y="320" width="315" height="112" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(626 320)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="153.73242">+ EightsPlayer(name: String)</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="25" textLength="195.67383">+ getHand(): EightsCardCollection</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="39" textLength="72.3457">+ score(): int</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="53" textLength="59.683594">+ display()</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="67" textLength="93.03516">+ displayScore()</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="81" textLength="296.37305">+ play(eights: Eights, prev: EightsCard): EightsCard</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="95" textLength="279.05273">+ searchForMatch(prev: EightsCard): EightsCard</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="109" textLength="283.03125">+ drawForMatch(eights: Eights, prev: EightsCard)</tspan>
+      </text>
+      <line x1="778.5" y1="292" x2="778.5" y2="238.5" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="621" y="512" width="315" height="14" fill="white"/>
+      <rect x="621" y="512" width="315" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(626 512)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="115.14648" y="11" textLength="74.70703">Eights Genius</tspan>
+      </text>
+      <rect x="621" y="526" width="315" height="12" fill="white"/>
+      <rect x="621" y="526" width="315" height="12" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="621" y="538" width="315" height="56" fill="white"/>
+      <rect x="621" y="538" width="315" height="56" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(626 538)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="157.74023">+ EightsGenius(name: String)</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="25" textLength="273.45703">- eval(card: EightsCard, total: int, vary: boolean): int</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="39" textLength="207.42773">- eval(rank: int, total: int, vary: boolean)</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="53" textLength="279.05273">+ searchForMatch(prev: EightsCard): EightsCard</tspan>
+      </text>
+      <line x1="778.5" y1="512" x2="778.5" y2="445.5" marker-end="url(#UMLInheritance_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="1152" y="144" width="288" height="14" fill="white"/>
+      <rect x="1152" y="144" width="288" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(1157 144)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="122.32422" y="11" textLength="33.351562">Eights</tspan>
+      </text>
+      <rect x="1152" y="158" width="288" height="112" fill="white"/>
+      <rect x="1152" y="158" width="288" height="112" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(1157 158)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="132.11133">+ debug: boolean = false</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="25" textLength="68.0332">- in: Scanner</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="39" textLength="100.04297">- random: Random</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="53" textLength="56.68945">- players: </tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="56.25" y="53" textLength="139.40039">ArrayList&lt;EightsPlayer&gt;</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="67" textLength="186.02344">- drawPile: EightsCardCollection</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="81" textLength="200.70117">- discardPile: EightsCardCollection</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="95" textLength="70.66406">- current: int</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="109" textLength="67.99219">- winner: int</tspan>
+      </text>
+      <rect x="1152" y="270" width="288" height="196" fill="white"/>
+      <rect x="1152" y="270" width="288" height="196" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(1157 270)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="79.03125">+ test(players: </tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="78.375" y="11" textLength="188.08594">ArrayList&lt;EightsPlayer&gt;, count: int)</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="25" textLength="93.04102">+ Eights(players: </tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="92.38477" y="25" textLength="132.7207">ArrayList&lt;EightsPlayer&gt;)</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="39" textLength="72.328125">+ play(): int[]</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="53" textLength="111.67383">+ isDone(): boolean</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="67" textLength="89.02734">+ displayState()</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="81" textLength="87.68555">+ waitForUser()</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="95" textLength="41.689453">+ takeT</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="40.804688" y="95" textLength="142.70508">urn(player: EightsPlayer)</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="109" textLength="101.66016">+ getCurrent(): int</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="123" textLength="39.66797">+ getW</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="39.5625" y="123" textLength="59.32031">inner(): int</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="137" textLength="98.37891">+ increaseIndex()</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="151" textLength="159.06445">+ nextPlayer(): EightsPlayer</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="165" textLength="121.68164">+ previousIndex(): int</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="179" textLength="117.67969">+ draw(): EightsCard</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="0" y="193" textLength="54.3457">+ reshuffl</tspan>
+        <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="54.3457" y="193" textLength="14.666016">e()</tspan>
+      </text>
+      <g id="id180_Graphic">
+        <rect x="621" y="459" width="117" height="18" fill="white"/>
+        <rect x="621" y="459" width="117" height="18" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(626 461)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="bold" x=".14453125" y="11" textLength="106.71094">ArrayList&lt;Integer&gt;</tspan>
+        </text>
+      </g>
+      <line x1="725.0921" y1="512" x2="687.3529" y2="483.02847" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/>
+      <line x1="567" y1="116.55385" x2="728.7026" y2="57.401115" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/>
+      <g id="id184_Graphic">
+        <rect x="981" y="243" width="117" height="18" fill="white"/>
+        <rect x="981" y="243" width="117" height="18" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(986 245)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="29.822266" y="11" textLength="47.35547">Scanner</tspan>
+        </text>
+      </g>
+      <line x1="1152" y1="266.45455" x2="1107.5633" y2="254.55988" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/>
+      <g id="id186_Graphic">
+        <rect x="738" y="45" width="117" height="18" fill="white"/>
+        <rect x="738" y="45" width="117" height="18" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(743 47)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="29.5" y="11" textLength="48">Random</tspan>
+        </text>
+      </g>
+      <line x1="1152" y1="223.04082" x2="863.604" y2="58.89706" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/>
+      <g id="id188_Graphic">
+        <rect x="963" y="378" width="153" height="18" fill="white"/>
+        <rect x="963" y="378" width="153" height="18" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(968 380)" fill="black">
+          <tspan font-family="Helvetica" font-size="12" font-weight="bold" x="1.7998047" y="11" textLength="139.40039">ArrayList&lt;EightsPlayer&gt;</tspan>
+        </text>
+      </g>
+      <line x1="1152" y1="370.6" x2="1125.0092" y2="382.8958" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="1008" y="545" width="288" height="14" fill="white"/>
+      <rect x="1008" y="545" width="288" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(1013 545)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="102.98535" y="11" textLength="72.0293">Game Center</tspan>
+      </text>
+      <rect x="1008" y="559" width="288" height="12" fill="white"/>
+      <rect x="1008" y="559" width="288" height="12" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <rect x="1008" y="571" width="288" height="14" fill="white"/>
+      <rect x="1008" y="571" width="288" height="14" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text transform="translate(1013 571)" fill="black">
+        <tspan font-family="Helvetica" font-size="12" font-weight="500" x="0" y="11" textLength="112.3711">+ main(args: String[])</tspan>
+      </text>
+      <g id="id618_Graphic">
+        <line x1="168.94781" y1="314.98052" x2="149.61236" y2="230" marker-start="url(#Diamond_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="id197_Graphic">
+        <line x1="317.57245" y1="293.39486" x2="288" y2="324" marker-start="url(#FilledDiamond_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="id620_Graphic">
+        <line x1="157.96604" y1="367.32404" x2="146.97692" y2="390" marker-start="url(#Diamond_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="id621_Graphic">
+        <line x1="315.97584" y1="364.7209" x2="306" y2="359" marker-start="url(#FilledDiamond_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="id623_Graphic">
+        <line x1="647.7501" y1="161.95627" x2="567" y2="161.57447" marker-start="url(#FilledDiamond_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="id624_Graphic">
+        <line x1="612.02026" y1="403.15064" x2="567" y2="414.2788" marker-start="url(#FilledDiamond_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="id626_Graphic">
+        <line x1="953.8338" y1="385.75796" x2="936" y2="383.34146" marker-start="url(#Diamond_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <line x1="1152" y1="320.8582" x2="945.8405" y2="343.56178" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line x1="1138.6864" y1="545" x2="1044.9859" y2="404.24105" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/>
+      <line x1="1163.0781" y1="545" x2="1202.0395" y2="474.6602" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/>
+      <line x1="1114.1053" y1="545" x2="908.7554" y2="436.6209" marker-end="url(#StickArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="4,4"/>
+    </g>
+  </g>
+</svg>
